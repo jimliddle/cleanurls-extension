@@ -3,7 +3,9 @@ A Chrome / Microsoft Edge extension that cleans affiliate tracking from URL's be
 
 When active, it cleans affiliate and tracking parameters from URLs as you browse. It works by intercepting web requests and stripping common tracker query parameters like utm_source, affid, ref, etc.
 
-This is using declarativeNetRequest which is the the correct way to filter or redirect URLs 
+This is using declarativeNetRequest which is the the correct way to filter or redirect URLs.
+
+You can add new affiliate trackers that you wish to remove in the rules json file.
 
 To install:
 
